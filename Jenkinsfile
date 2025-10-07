@@ -6,8 +6,8 @@ pipeline {
         ECR_REPO = 'user-service'           // Your ECR repo name
         IMAGE_TAG = "${env.BUILD_NUMBER}"        // Image tag = build number
         AWS_ACCOUNT_ID = '841731975771'          // Replace with your AWS Account ID
-        CLUSTER_NAME = 'my-ecs-cluster'          // Your ECS cluster name
-        SERVICE_NAME = 'user-service'            // ECS service name
+        CLUSTER_NAME = 'microservices-dev'          // Your ECS cluster name
+        SERVICE_NAME = 'userservice-service-5ogcteqk'            // ECS service name
         CONTAINER_NAME = 'user-container'        // Container name inside ECS task
     }
 
